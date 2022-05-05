@@ -1,0 +1,16 @@
+{
+    "version": "v0",
+    "compile": {
+        "command": "g++ -DONLINE_JUDGE --std=c++17 -o solution solution.cpp",
+        "environ": [],
+        "source": "solution.cpp",
+        "target": "solution",
+        "workdir": "/home/judge"
+    },
+    "execute": {
+        "command": "./solution",
+        "environ": [],
+        "target": "solution",
+        "workdir": "/home/judge"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "version": "v0",
+    "compile": {
+        "command": "rustc -DONLINE_JUDGE -o solution solution.rs",
+        "environ": [],
+        "source": "solution.rs",
+        "target": "solution",
+        "workdir": "/home/judge"
+    },
+    "execute": {
+        "command": "./solution",
+        "environ": [],
+        "target": "solution",
+        "workdir": "/home/judge"
+    }
+}
