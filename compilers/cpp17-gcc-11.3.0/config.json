@@ -1,14 +1,18 @@
 {
-    "name": "rust-rustc-1.60.0",
+    "name": "cpp17-gcc-11.3.0",
     "kind": "compiler/v0",
     "config": {
         "extensions": [
-            "rs"
+            "cpp",
+            "h",
+            "hpp",
+            "c++",
+            "cxx"
         ],
         "compile": {
-            "command": "rustc --cfg 'feature=\"ONLINE_JUDGE\"' -o solution solution.rs",
+            "command": "g++ --std=c++17 -O2 -DONLINE_JUDGE -o solution solution.cpp",
             "environ": [],
-            "source": "solution.rs",
+            "source": "solution.cpp",
             "target": "solution",
             "workdir": "/home/judge"
         },
