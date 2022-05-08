@@ -1,6 +1,6 @@
 {
     "name": "rust-rustc-1.60.0",
-    "kind": "compiler/v0",
+    "kind": "compiler",
     "config": {
         "extensions": [
             "rs"
