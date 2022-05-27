@@ -1,6 +1,5 @@
 {
     "name": "c11-gcc-11.3.0",
-    "kind": "compiler",
     "config": {
         "extensions": [
             "c",
